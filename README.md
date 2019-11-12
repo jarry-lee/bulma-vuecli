@@ -85,6 +85,16 @@ new Vue({
 }).$mount('#app')
 ```
 
+## font-awesome
+```
+$npm install font-awesome@4.7
+```
+add two line in main.scss
+```
+$fa-font-path: "~font-awesome/fonts/";
+@import "~font-awesome/scss/font-awesome";
+```
+
 ### Build Your App!
 Run `yarn run serve` during development to automatically compile all of your Sass and JS locally and hot reload your page. You can now use Bulma styles and components throughout your components and templates!
 
